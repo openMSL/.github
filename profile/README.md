@@ -13,25 +13,28 @@ The [ENVITED Research Cluster](https://envited.market/) is an initiative to crea
 Virtual validation is becoming an essential part of development processes for highly automated driving (HAD) functions. Standards for model and system interchange are vital for cross-company and cross-domain virtual
 integration and simulation of HAD functions.
 
-All repositories are organized in clusters following the general [governance rules](https://github.com/openMSL/governance-and-documentation). Each cluster represents the best practices in the automotive industry on how to use, create and apply standard compliant simulation data and models.
+All repositories are grouped into sub libraries following the general [governance rules](https://github.com/openMSL/governance-and-documentation). Each sub library (SL) represents the best practices in the automotive industry on how to use, create and apply standard compliant simulation data and models regarding a specific topic or application area.
 
-# Clusters
+# Sub Libraries
 
-## DC1 - Perception Sensor Models
+## SL1 - Perception Sensor Models
 
 Initiated: 2022-07-25
   
-### Cluster Maintainer:
+### Maintainer:
 - [Lukas Elster](https://github.com/LukasElster) (FZD TU Darmstadt)
 - [Clemens Linnhoff](https://github.com/ClemensLinnhoff) (Persival GmbH)
 - [Jürgen Wille](https://github.com/FM-juergenW) (FrontMod GmbH)
   
 ### Repositories:
-- [DC1-0 model_repository_template](https://github.com/openMSL/model_repository_template)
-- [DC1-1 reflection_based_radar_object_model](https://github.com/openMSL/reflection_based_radar_object_model)
-- [DC1-2 reflection_based_lidar_object_model](https://github.com/openMSL/reflection_based_lidar_object_model)
-- [DC1-3 object_based_generic_perception_object_model](https://github.com/openMSL/object_based_generic_perception_object_model)
-- [DC1-4 object_based_camera_object_model](https://github.com/openMSL/object_based_camera_object_model)
+- [sl-1-0-model-repository-template](https://github.com/openMSL/model_repository_template)
+- [sl-1-1-reflection-based-radar-object-model](https://github.com/openMSL/reflection_based_radar_object_model)
+- [sl-1-2-reflection-based-lidar-object-model](https://github.com/openMSL/reflection_based_lidar_object_model)
+- [sl-1-3-object-based-generic-perception-object-model](https://github.com/openMSL/object_based_generic_perception_object_model)
+- [sl-1-4-object-based-camera-object-model](https://github.com/openMSL/object_based_camera_object_model)
 
-## DC2 - Agent Models
+## SL2 - Agent Models
+Start of the initalization phase.
+
+## SL3 - Scenario Data
 Start of the initalization phase.

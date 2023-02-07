@@ -27,7 +27,7 @@ Initiated: 2022-07-25
 - [Jürgen Wille](https://github.com/FM-juergenW) (FrontMod GmbH)
   
 ### Repositories:
-- [sl-1-0-model-repository-template](https://github.com/openMSL/sl-1-0-sensor-model-repository-template)
+- [sl-1-0-sensor-model-repository-template](https://github.com/openMSL/sl-1-0-sensor-model-repository-template)
 - [sl-1-1-reflection-based-radar-object-model](https://github.com/openMSL/sl-1-1-reflection-based-radar-object-model)
 - [sl-1-2-reflection-based-lidar-object-model](https://github.com/openMSL/sl-1-2-reflection-based-lidar-object-model)
 - [sl-1-3-object-based-generic-perception-object-model](https://github.com/openMSL/sl-1-3-object-based-generic-perception-object-model)

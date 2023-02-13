@@ -20,3 +20,5 @@ How has it been tested?
 
 If you can’t check all of them, please explain why.
 If all boxes are checked or commented and you have achieved at least one positive review, you can assign the label "ready for maintainer review"!
+
+If your pull request is ready to be reviewed, please assign the maintainer group of your sub-library (e.g. openMSL/sl1-maintainer) and set the label to "ready for maintainer review".

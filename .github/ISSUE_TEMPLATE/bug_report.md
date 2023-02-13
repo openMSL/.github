@@ -26,8 +26,12 @@ If applicable, add screenshots to help explain your problem.
 **Describe the setup you are using:**
 - Branch, Commit ID in which the bug appears
 - OS: [e.g. Windows 11, Ubuntu 22.04]
+- Hardware: [CPU, Graphics Card, HiL Hardware, ...]
 - Simulation Framework: [e.g. OpenMCx, Model.CONNECT, FMI Bench, ...]
+- Test Setup: [SiL, HiL, ViL, ...]
 - Model Input: [e.g. CarMaker, Carla, dSpace ASM, esmini, ...]
 
 **Additional context:**
 Add any other context about the problem here.
+
+If you know a person, who could answer this issue, feel free to asign them. Otherwise, the maintainer group will assign someone.

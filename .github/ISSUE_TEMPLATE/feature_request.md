@@ -19,4 +19,4 @@ A clear and concise description of any alternative solutions or features you've 
 **Additional context**
 Add any other context or screenshots about the feature request here.
 
-If you know a person, who could answer this issue, feel free to asign them. Otherwise, the maintainer group will assign someone.
+If you know a person, who could answer this issue, feel free to assign them. Otherwise, the maintainer group will assign someone.

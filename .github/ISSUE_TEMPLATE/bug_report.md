@@ -34,4 +34,4 @@ If applicable, add screenshots to help explain your problem.
 **Additional context:**
 Add any other context about the problem here.
 
-If you know a person, who could answer this issue, feel free to asign them. Otherwise, the maintainer group will assign someone.
+If you know a person, who could answer this issue, feel free to assign them. Otherwise, the maintainer group will assign someone.

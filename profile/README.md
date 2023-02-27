@@ -1,4 +1,4 @@
-![tp header](/docs/envited.png)
+![tp header](/doc/img/envited.png)
 
 [![](https://img.shields.io/twitter/follow/ASCS_eV?label=Follow&style=social)](https://twitter.com/ASCS_eV)
 
@@ -13,7 +13,7 @@ The [ENVITED Research Cluster](https://envited.market/) is an initiative to crea
 Virtual validation is becoming an essential part of development processes for highly automated driving (HAD) functions. Standards for model and system interchange are vital for cross-company and cross-domain virtual
 integration and simulation of HAD functions.
 
-All repositories are grouped into sub libraries following the general [governance rules](https://github.com/openMSL/governance-and-documentation). Each sub library (SL) represents the best practices in the automotive industry on how to use, create and apply standard compliant simulation data and models regarding a specific topic or application area.
+All repositories are grouped into sub libraries following the general [governance rules](/doc/governance_rules.md). Each sub library (SL) represents the best practices in the automotive industry on how to use, create and apply standard compliant simulation data and models regarding a specific topic or application area.
 
 # Sub Libraries
 

@@ -15,6 +15,8 @@ integration and simulation of HAD functions.
 
 All repositories are grouped into sub libraries following the general [governance rules](/doc/governance_rules.md). Each sub library (SL) represents the best practices in the automotive industry on how to use, create and apply standard compliant simulation data and models regarding a specific topic or application area.
 
+Read more detailed information [here](../README.md).
+
 # Sub Libraries
 
 ## SL1 - Perception Sensor Models

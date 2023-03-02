@@ -41,7 +41,7 @@ All intellectual property remains with the original contributors and is subject 
 
 <i>DISCLAIMER for GitHub Library
   
-This open-source material has been classified by the Sub Library Maintainers - SLMs of the sub library <name of sub library> on <date> as directly supporting the activities in the ENVITED research cluster. For this reason, the open source material is hosted by the Automotive Solution Center for Simulation e.V. (ASCS) in this Open Source Model & Simulation Library (OpenMSL). This open-source material was created by <name of data provider> and is monitored by the SLMs of the <name of sub library>. 
+This open-source material has been classified by the Sub Library Maintainers - SLMs of the sub library `<name of sub library>` on `<date>` as directly supporting the activities in the ENVITED research cluster. For this reason, the open source material is hosted by the Automotive Solution Center for Simulation e.V. (ASCS) in this Open Source Model & Simulation Library (OpenMSL). This open-source material was created by `<name of data provider>` and is monitored by the SLMs of the `<name of sub library>`. 
 
 The open-source material is not directly maintained or managed by ASCS. The owners or maintainers of this open-source material can be found in the GitHub sub library of the same name. All intellectual property remains with the original contributors and is subject to the original license terms listed in the LICENSE file.
 
@@ -49,6 +49,10 @@ The ASCS reserves the right to remove open-source material and associated reposi
 This open-source material will be made available under open-source licenses and as is. This is done for the protection of the creators without any warranty and under exclusion of liability for damages resulting from any use. 
 
 Creators of additional open-source material that may be relevant to the ENVITED OpenMSL are welcome to contact the ASCS office at hello@envited.market. </i>
+
+<h5>3.2 Repository naming scheme</h5>
+Each repository within OpenMSL is assigned a unique identifier.
+This identifier combines the ID of the sub-library with a consecutive repository ID within the sub-library conforming to the schema: `sl-<sub-library ID>-<consecutive repo ID>`. This identifier string is the first part of every repository within OpenMSL. The second part is an individual name for the material contained in the repository. The name shall give concise information about the repository's contents. The general repository naming scheme therefore reads: `sl-<sub-library ID>-<consecutive repo ID>-<concise name>`
 
 <h3>§4 Implementation Phases of the OpenMSL</h3>
 

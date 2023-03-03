@@ -15,7 +15,7 @@ integration and simulation of HAD functions.
 
 All repositories are grouped into sub libraries following the general [governance rules](/doc/governance_rules.md). Each sub library (SL) represents the best practices in the automotive industry on how to use, create and apply standard compliant simulation data and models regarding a specific topic or application area.
 
-Read more detailed information [here](../README.md).
+Read more detailed information [here](/README.md).
 
 # Sub Libraries
 
@@ -37,7 +37,7 @@ Initiated: 2022-07-25
 - [sl-1-5-sensor-model-testing](https://github.com/openMSL/sl-1-5-sensor-model-testing)
 
 ## SL2 - Agent Models
-Start of the initalization phase.
+Start of the initialization phase.
 
 ## SL3 - Scenario Data
-Start of the initalization phase.
+Start of the initialization phase.

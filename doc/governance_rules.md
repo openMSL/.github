@@ -58,7 +58,7 @@ Contribution of open-source material to the OpenMSL may be made under the follow
 
 All intellectual property remains with the original contributors and is subject to the original license terms described in the LICENSE file.
 
-> ** DISCLAIMER for GitHub libraries **
+> **DISCLAIMER for GitHub librariess**
 >
 > This open-source material has been classified by the Sub Library Maintainers -  SLMs of the sub library `<name of sub library>` on `<date>` as directly supporting the activities in the ENVITED research cluster.
 > For this reason, the open source material is hosted by the Automotive Solution Center for Simulation e.V. (ASCS) in this Open Source Model & Simulation Library (OpenMSL).
@@ -82,7 +82,7 @@ Each repository within OpenMSL is assigned a unique identifier.
 This identifier combines the ID of the sub-library with a consecutive repository ID within the sub-library conforming to the schema:
 
 `sl-<sub library ID>-<consecutive repo ID>`
-   
+
 This identifier string is the prefix of every repository within OpenMSL.
 The second part is an individual name for the material contained in the repository.
 The name shall give concise information about the repository's contents.

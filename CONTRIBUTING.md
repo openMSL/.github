@@ -8,34 +8,32 @@ In the commit message of the contribution, (described more fully later in this d
 When a developer submits a patch, it is a commitment that the contributor has the right to submit the patch per the license.
 The DCO agreement is shown below and online at [developercertificate.org](https://developercertificate.org/).
 
-```
-Developer's Certificate of Origin 1.1
-
-By making a contribution to this project, I certify that:
-
-(a) The contribution was created in whole or in part by me and I
+> **Developer's Certificate of Origin 1.1**
+>
+>By making a contribution to this project, I certify that:
+>
+>(a) The contribution was created in whole or in part by me and I
     have the right to submit it under the open source license
     indicated in the file; or
-
-(b) The contribution is based upon previous work that, to the
+>
+>(b) The contribution is based upon previous work that, to the
     best of my knowledge, is covered under an appropriate open
     source license and I have the right under that license to
     submit that work with modifications, whether created in whole
     or in part by me, under the same open source license (unless
     I am permitted to submit under a different license), as
     Indicated in the file; or
-
-(c) The contribution was provided directly to me by some other
+>
+>(c) The contribution was provided directly to me by some other
     person who certified (a), (b) or (c) and I have not modified
     it.
-
-(d) I understand and agree that this project and the contribution
+>
+>(d) I understand and agree that this project and the contribution
     are public and that a record of the contribution (including
     all personal information I submit with it, including my
     sign-off) is maintained indefinitely and may be redistributed
     consistent with this project or the open source license(s)
     involved.'
-```
 
 ### Usage of DCO Sign-Off
 
@@ -48,7 +46,6 @@ If you forget to add the sign-off you can also amend a previous commit with the 
 You can add sign-offs to multiple commits (including commits originally authored by others, if you are authorized to do so) using `git rebase --signoff`.
 If you’ve pushed your changes to GitHub already you’ll need to force push your branch after this with `git push --force-with-lease`.
 If you want to be reminded to add the sign-off for commits in your repository, you can add the following commit-message git hook to your repository:
-
 
 ```bash
 #!/bin/sh
@@ -67,11 +64,14 @@ Placing this script into a file called `.git/hooks/commit-msg` and making it exe
 
 ## GPG Commit Signature Verification
 
-Every commit in a repository of OpenMSL requires a verification of the commit signature using GPG-sign commits with `-S [<keyid>]`. The `keyid` argument is optional and defaults to the committer identity; if specified, it must be stuck to the option without a space. `--no-gpg-sign` is useful to countermand both `commit.gpgSign` configuration variable, and earlier `--gpg-sign`.
+Every commit in a repository of OpenMSL requires a verification of the commit signature using GPG-sign commits with `-S [<keyid>]`.
+The `keyid` argument is optional and defaults to the committer identity;
+if specified, it must be stuck to the option without a space. `--no-gpg-sign` is useful to countermand both `commit.gpgSign` configuration variable, and earlier `--gpg-sign`.
 
 You can read all about setting it up in the [official GitHub documentation](https://docs.github.com/en/authentication/managing-commit-signature-verification).
 
 Using DCO, GPG and a custom commit message, your commit command reads e.g.
+
 ```bash
 git commit -s -S -m "Your commit message"
 ```
@@ -81,7 +81,14 @@ git commit -s -S -m "Your commit message"
 To maintain clean and consistent code and documentation, general style guidelines are to be followed. These guidelines depend on the utilized coding or markup language.
 
 ### C++
-For C++ code clang-format and clang-tidy have to be used. There is no general format set for OpenMSL, it can be customized for every repository. You can find an example for respective clang-format and clang-tidy files in the [template repository of sl-1](https://github.com/openMSL/sl-1-0-sensor-model-repository-template). The code style of C++ files will be checked against these config files in the CI pipeline of the repository.
+
+For C++ code clang-format and clang-tidy have to be used. There is no general format set for OpenMSL, it can be customized for every repository.
+You can find an example for respective clang-format and clang-tidy files in the [template repository of sl-1](https://github.com/openMSL/sl-1-0-sensor-model-repository-template).
+The code style of C++ files will be checked against these config files in the CI pipeline of the repository.
 
 ### Markdown
-For readmes and other documentation written in Markdown, [these rules](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md) are used as a guideline. Similar to C++ these rules can be adapted to the needs of the individual repository with a markdownlint.json file. You can find an example [here](https://github.com/openMSL/sl-1-0-sensor-model-repository-template/blob/main/.github/workflows/markdownlint.json). The style of all .md files will be checked against these config file in the CI pipeline of the repository.
+
+For readmes and other documentation written in Markdown, [these rules](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md) are used as a guideline.
+Similar to C++ these rules can be adapted to the needs of the individual repository with a markdownlint.json file.
+You can find an example [here](https://github.com/openMSL/sl-1-0-sensor-model-repository-template/blob/main/.github/workflows/markdownlint.json).
+The style of all .md files will be checked against these config file in the CI pipeline of the repository.

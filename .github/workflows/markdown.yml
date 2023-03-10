@@ -17,3 +17,4 @@ jobs:
       uses: articulate/actions-markdownlint@v1
       with:
         config: .github/workflows/markdownlint.json
+        ignore: .github/ISSUE_TEMPLATE

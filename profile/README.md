@@ -19,19 +19,19 @@ Next to the general governance rules, there is a [contributing](/CONTRIBUTING.md
 
 Read more detailed information [here](/README.md).
 
-# Sub Libraries
+## Sub Libraries
 
-## SL1 - Perception Sensor Models
+### SL1 - Perception Sensor Models
 
 Initiated: 2022-07-25
   
-### Maintainer
+#### Maintainer
 
 - [Lukas Elster](https://github.com/LukasElster) (FZD TU Darmstadt)
 - [Clemens Linnhoff](https://github.com/ClemensLinnhoff) (Persival GmbH)
 - [Jürgen Wille](https://github.com/FM-juergenW) (FrontMod GmbH)
   
-### Repositories
+#### Repositories
 
 - [sl-1-0-sensor-model-repository-template](https://github.com/openMSL/sl-1-0-sensor-model-repository-template)
 - [sl-1-1-reflection-based-radar-object-model](https://github.com/openMSL/sl-1-1-reflection-based-radar-object-model)
@@ -40,10 +40,10 @@ Initiated: 2022-07-25
 - [sl-1-4-object-based-camera-object-model](https://github.com/openMSL/sl-1-4-object-based-camera-object-model)
 - [sl-1-5-sensor-model-testing](https://github.com/openMSL/sl-1-5-sensor-model-testing)
 
-## SL2 - Agent Models
+### SL2 - Agent Models
 
 Start of the initialization phase.
 
-## SL3 - Scenario Data
+### SL3 - Scenario Data
 
 Start of the initialization phase.

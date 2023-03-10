@@ -7,7 +7,7 @@ It is thus a further, independent instance in the data pool in addition to the d
 The purpose of OpenMSL is to bundle open-source material in the area of simulation-driven product lifecycle processes for highly automated vehicles, to make it openly accessible, and to sustainably enable active and cooperative further development by stakeholders.
 The GitHub-based OpenMSL supports knowledge transfer and in addition the research and development of methods and processes in the mentioned area.
 This includes simulation models as well as data and software applications for the preparation, processing or evaluation of models as well as documents for knowledge transfer.
-The content of OpenMSL thus favors the processing of research questions and standardization approaches in the ENVITED research cluster and beyond. 
+The content of OpenMSL thus favors the processing of research questions and standardization approaches in the ENVITED research cluster and beyond.
 
 ## §2 Bodies of ENVITED OpenMSL
 
@@ -34,7 +34,8 @@ SLM meetings are to be documented publicly with details of the persons participa
 
 ### 2.3 Office of the ASCS
 
-The ASCS office is responsible for the organization, operation and documentation of the OpenMSL. It serves as the central contact point for inquiries regarding the OpenMSL. 
+The ASCS office is responsible for the organization, operation and documentation of the OpenMSL.
+It serves as the central contact point for inquiries regarding the OpenMSL.
 
 ## §3 Sub Libraries
 
@@ -46,14 +47,14 @@ New sub libraries can be requested via an application to the ASCS office and app
 
 Contribution of open-source material to the OpenMSL may be made under the following conditions:
 
-1. data contributors are clearly identifiable:   
+1. data contributors are clearly identifiable:
    - Members in Automotive Solution Center for Simulation e.V.
    - Companies / organizations stating their DUNS number
    - Publicly funded projects (under confirmation by the consortium leader)
 2. the open-source material to be contributed must be assignable to a sub library or be placed in a new sub library,
 3. the open-source material to be contributed must be licensed under a common open-source license as listed on [opensource.org](https://opensource.org/) and documented in a LICENSE file,
 4. the open-source material to be contributed must be presented to the appropriate SLMs and comply with the rules of the sub library,
-5. the ENVITED OpenMSL disclaimer must be agreed to and documented in a DISCLAIMER file. 
+5. the ENVITED OpenMSL disclaimer must be agreed to and documented in a DISCLAIMER file.
 
 All intellectual property remains with the original contributors and is subject to the original license terms described in the LICENSE file.
 
@@ -61,7 +62,7 @@ All intellectual property remains with the original contributors and is subject 
 >
 > This open-source material has been classified by the Sub Library Maintainers -  SLMs of the sub library `<name of sub library>` on `<date>` as directly supporting the activities in the ENVITED research cluster.
 > For this reason, the open source material is hosted by the Automotive Solution Center for Simulation e.V. (ASCS) in this Open Source Model & Simulation Library (OpenMSL).
-> This open-source material was created by `<name of data provider>` and is monitored by the SLMs of the `<name of sub library>`. 
+> This open-source material was created by `<name of data provider>` and is monitored by the SLMs of the `<name of sub library>`.
 >
 > The open-source material is not directly maintained or managed by ASCS.
 > The owners or maintainers of this open-source material can be found in the GitHub sub library of the same name. All intellectual property remains with the original contributors and is subject to the original license terms listed in the LICENSE file.
@@ -71,10 +72,9 @@ All intellectual property remains with the original contributors and is subject 
 > Open-source material that no longer meets this will be removed from the platform by decision of the ENVITED TSC.
 >
 > This open-source material will be made available under open-source licenses and as is.
-> This is done for the protection of the creators without any warranty and under exclusion of liability for damages resulting from any use. 
+> This is done for the protection of the creators without any warranty and under exclusion of liability for damages resulting from any use.
 >
 > Creators of additional open-source material that may be relevant to the ENVITED OpenMSL are welcome to contact the ASCS office at [hello@envited.market](mailto:hello@envited.market)
-
 
 ### 3.2 Repository naming scheme
 
@@ -92,25 +92,27 @@ The general repository naming scheme therefore reads:
 
 ## §4 Implementation phases of the OpenMSL
 
-Implementation phases define different stages in which data sub libraries or parts of them can be located. 
+Implementation phases define different stages in which data sub libraries or parts of them can be located.
 
 ### 4.1 Initialization Phase
 
 In the initialization phase, the new sub library and its model(s) or data are first proposed or presented.
 All ENVITED members can participate in this phase after invitation by the ASCS and express their interest as SLM.
 The ENVITED TSC decides on the initiation of the new sub library.
-Before filling the repository, the SLMs define governance rules on how and under which structure and quality metrics the data are to be entered. 
+Before filling the repository, the SLMs define governance rules on how and under which structure and quality metrics the data are to be entered.
 
 ### 4.2 Active Phase
 
 In the active phase, after approval by the SLMs, the open-source data is entered into the repository.
 This is usually done by the data providers, the SLMs, or the ASCS office.
 The active phase allows public access to the data sets as well as the comment function regarding applicability, functionality and necessary updates.
-Change proposals (pull requests) can be decided or accepted by the SLMs. 
+Change proposals (pull requests) can be decided or accepted by the SLMs.
 
 ### 4.3 Project Phase
 
-If more extensive measures are required to update or expand open-source data in a sub library, the project phase provides a formal definition of an implementation project.Here, a concrete project plan with motivation, objectives, and implementation time frame must be defined with the involvement of participating or supporting ENVITED members. The initiation is done by the SLMs.
+If more extensive measures are required to update or expand open-source data in a sub library, the project phase provides a formal definition of an implementation project.
+Here, a concrete project plan with motivation, objectives, and implementation time frame must be defined with the involvement of participating or supporting ENVITED members.
+The initiation is done by the SLMs.
 All ENVITED members are informed about the initiation of a project phase by the ASCS office and given the opportunity to participate.
 In addition to resources / funds of the members, third-party funds as well as funds from the ENVITED Research Cluster can be used in the project phase.
 The latter also applies to the awarding of contracts to external service providers, whereby the awarding guidelines of the ASCS must be observed here.

@@ -58,7 +58,7 @@ Contribution of open-source material to the OpenMSL may be made under the follow
 
 All intellectual property remains with the original contributors and is subject to the original license terms described in the LICENSE file.
 
-> **DISCLAIMER for GitHub librariess**
+> **DISCLAIMER for GitHub libraries**
 >
 > This open-source material has been classified by the Sub Library Maintainers -  SLMs of the sub library `<name of sub library>` on `<date>` as directly supporting the activities in the ENVITED research cluster.
 > For this reason, the open source material is hosted by the Automotive Solution Center for Simulation e.V. (ASCS) in this Open Source Model & Simulation Library (OpenMSL).

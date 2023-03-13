@@ -3,7 +3,7 @@
 ## ASC(S e.V. Governance Rules
 
 The collaboration of contributors in this GitHub organzation is organized under the umbrella of the Automotive Solution Center for Simulation e.V.
-In this community the general [governance rules](/doc/governance_rules.md) needed to fulfill industry compliance regulations are set.
+In this community the general [Governance Rules](/doc/governance_rules.md) needed to fulfill industry compliance regulations are set.
 
 ## Code of Conduct
 
@@ -16,7 +16,7 @@ A modified version of [this](https://www.contributor-covenant.org/) document is 
 Thanks for your interest in contributing! There are many ways to contribute to this project.
 Get started [here](/CONTRIBUTING.md).
 
-## PR and issue templates
+## PR and Issue Templates
 
 This repository also defines the standard issue and pull request templates valid for the overall organization.
 

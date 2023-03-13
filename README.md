@@ -1,5 +1,10 @@
 # ENVITED OpenMSL Organization
 
+## ASC(S e.V. Governance Rules
+
+The collaboration of contributors in this GitHub organzation is organized under the umbrella of the Automotive Solution Center for Simulation e.V..
+In this community the general [governance rules](/doc/governance_rules.md) needed to fulfill industry compliance regulations are set.
+
 ## Public organization profile
 
 The profile information is described in [profile/README.md](profile/README.md) and displayed on the organization main page.

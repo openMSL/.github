@@ -122,4 +122,4 @@ Also, the CI pipeline will run for every commit, so you can continuously check y
 ### Pull request
 
 Once you are done with your changes, [convert the draft to a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request).
-Then the sub-library maintainer will know, that you are done with your changes and the pull request can be reviewed to be merged. 
+Then the sub-library maintainer will know, that you are done with your changes and the pull request can be reviewed to be merged.

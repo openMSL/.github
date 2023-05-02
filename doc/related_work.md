@@ -30,6 +30,12 @@ For co-simulation of OpenMSL models directly in the GitHub CI pipeline, esmini i
 [FMPy](https://github.com/CATIA-Systems/FMPy):
 To check, if an FMU build by the GitHub pipeline is conforming to the FMI standard, FMPy validate is used.
 
+[FMU Compliance Checker](https://github.com/modelica-tools/FMUComplianceChecker):
+Alongside the aforementioned FMPy, the official FMU Compliance Checker by Modelica is also used to ensure that all FMUs comply with the FMI standard.
+
 [OpenMCx](https://github.com/eclipse/openmcx):
 Simulations with multiple models packaged as FMUs need a co-simulation master.
 To test models in the GitHub CI pipeline, OpenMCx is used to connect multiple FMUs according to a System Structure Definition (SSD).
+
+[OSI Sensor Model Packaging](https://github.com/OpenSimulationInterface/osi-sensor-model-packaging):
+OSMP is used as a template to package all models using OSI and FMI.

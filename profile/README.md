@@ -13,6 +13,8 @@ The [ENVITED Research Cluster](https://envited.market/) is an initiative to crea
 Virtual validation is becoming an essential part of development processes for highly automated driving (HAD) functions. Standards for model and system interchange are vital for cross-company and cross-domain virtual
 integration and simulation of HAD functions.
 
+Therefore, OpenMSL is heavily based on various international standards and widely used open-source tools. A list of the utilized standards and tools can be found [here](../doc/related_work.md).
+
 All repositories are grouped into sub libraries and each sub library (SL) represents the best practices in the automotive industry on how to use, create and apply standard compliant simulation data and models regarding a specific topic or application area.
 Read more detailed information about governance rules, contribution guidelines and our code of conduct [here](/README.md).
 

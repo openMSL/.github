@@ -16,7 +16,7 @@ integration and simulation of HAD functions.
 OpenMSL is not only a library for individual simulation entities.
 It is a central hub demonstrating the interaction between models, standards and tools from the vast space of ADAS simulation.
 Elaborate test pipelines assure the compliance of all simulation entities to the standards.
-A list of the utilized standards and tools can be found [here](../doc/related_work.md).
+A list of the utilized standards and tools can be found [here](/doc/related_work.md).
 
 All repositories are grouped into sub libraries and each sub library (SL) represents the best practices in the automotive industry on how to use, create and apply standard compliant simulation data and models regarding a specific topic or application area.
 Read more detailed information about governance rules, contribution guidelines and our code of conduct [here](/README.md).

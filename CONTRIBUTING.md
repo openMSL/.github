@@ -95,7 +95,8 @@ The style of all .md files will be checked against these config file in the CI p
 
 ## Implement Changes
 
-In order to implement changes in an OpenMSL repository, please follow the process: issue -> branch -> draft pull request -> pull request.
+In order to implement changes in an OpenMSL repository, you can either fork the repository or request access to the contributors group. Then you can make changes directly on OpenMSL.
+Either way, please follow the process: issue -> branch -> draft pull request -> pull request.
 The steps are further described in the following.
 
 ### Issue
@@ -107,6 +108,7 @@ Open a new issue in the repository with the respective template for a bug or a f
 
 Create a new branch, where you can start working on the issue.
 You can use the link on the right side in the issue ("Development: Create a branch for this issue") to automatically create a new branch for the issue.
+In order to create a branch, either fork the repository or request access to the OpenMSL contributors group.
 
 ### Draft Pull Request
 

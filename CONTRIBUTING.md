@@ -97,7 +97,7 @@ The style of all .md files will be checked against these config file in the CI p
 
 Feature additions and bug fixes from the community are very welcome in OpenMSL.
 Therefore, feel free not only to report an issue but also to work on a solution right away.
-In order to implement changes in an OpenMSL repository, you can either fork the repository or request access to the contributors group. Then you can make changes directly on OpenMSL.
+In order to implement changes in an OpenMSL repository, you can either fork the repository or request access to the contributors group. Then you can make your changes directly in OpenMSL.
 Either way, please follow the process: issue -> branch -> draft pull request -> pull request.
 The steps are further described in the following.
 

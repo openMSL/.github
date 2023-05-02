@@ -92,3 +92,38 @@ For readmes and other documentation written in Markdown, [these rules](https://g
 Similar to C++ these rules can be adapted to the needs of the individual repository with a markdownlint.json file.
 You can find an example [here](https://github.com/openMSL/sl-1-0-sensor-model-repository-template/blob/main/.github/workflows/markdownlint.json).
 The style of all .md files will be checked against these config file in the CI pipeline of the repository.
+
+## Implement Changes
+
+Feature additions and bug fixes from the community are very welcome in OpenMSL.
+Therefore, feel free not only to report an issue but also to work on a solution right away.
+In order to implement changes in an OpenMSL repository, you can either fork the repository or request access to the contributors group. Then you can make your changes directly in OpenMSL.
+Either way, please follow the process: issue -> branch -> draft pull request -> pull request.
+The steps are further described in the following.
+
+### Issue
+
+The first step is to identify and describe a bug or feature.
+Open a new issue in the repository with the respective template for a bug or a feature.
+
+### Branch
+
+Create a new branch, where you can start working on the issue.
+You can use the link on the right side in the issue ("Development: Create a branch for this issue") to automatically create a new branch for the issue.
+In order to create a branch, either fork the repository or request access to the OpenMSL contributors group.
+
+### Draft Pull Request
+
+After creating the branch, commit first changes.
+Please follow the signing instructions for commits above.
+Then create a draft pull request.
+Use the template for pull requests and fill it out accordingly.
+Be sure to link the issue you created earlier in the pull request.
+On the bottom you can select to either submit as a pull request or a draft pull request.
+Use a draft first, so the community can already see the ongoing work.
+Also, the CI pipeline will run for every commit, so you can continuously check your work.
+
+### Pull request
+
+Once you are done with your changes, [convert the draft to a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request).
+Then the sub-library maintainer will know, that you are done with your changes and the pull request can be reviewed to be merged.

@@ -21,6 +21,10 @@ A list of the utilized standards and tools can be found [here](/doc/related_work
 All repositories are grouped into sub libraries and each sub library (SL) represents the best practices in the automotive industry on how to use, create and apply standard compliant simulation data and models regarding a specific topic or application area.
 Read more detailed information about governance rules, contribution guidelines and our code of conduct [here](/README.md).
 
+OpenMSL is not only a hub for data and models, it furthermore provides unified test architectures for simulation components.
+For OSMP compiant simulaiton models, an [OSMP Test Architecture](/doc/osmp_test_architecture.md) is definied.
+The architecture is applied in the template repositories of the corresponding sub libraries.
+
 ## Sub Libraries
 
 ### SL1 - Perception Sensor Models

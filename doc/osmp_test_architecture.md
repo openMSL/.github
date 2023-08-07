@@ -31,7 +31,9 @@ An implementation of the GitHub action for this credibility assessment level can
 ## CL 1: Code Verification
 
 Credibility assessment level 1 contains multiple different tests for code quality.
-In the first test, multiple linters are used to ensure general quality of C++ code, markdown documentation files, and xml files such as SRMD and modelDescription.
+In the first test, linters are used to ensure general quality of code and documentation.
+In the example linked below, linters for C++ code, markdown files, and xml files such as SRMD and modelDescription are implemented.
+Further linters have to be added, if additional programming languages are used.
 In the second test, the model is build using cmake.
 The third test category runs unit tests defined for the individual model.
 

@@ -1,6 +1,6 @@
 # OSMP Test Architecture
 
-The OSMP Test Architecture is designed to test any simulation model complying to the [OSI Sensor Model Packaging (OSMP)](https://github.com/OpenSimulationInterface/osi-sensor-model-packaging) specification.
+The OSMP Test Architecture is designed to test any simulation model complying to the [OSMP](https://github.com/OpenSimulationInterface/osi-sensor-model-packaging) specification.
 Contrary to the S in OSMP, a variety of model typed from environmental effect models over sensor models to traffic participant models can be tested with this architecture.
 The architecture is divided into 3 main test levels based on the credibility assessment level definition by Ahmann et al. [[1](#Ahmann2022)].
 Because the test architecture is specifically designed for OpenMSL open source models, a license check is needed.

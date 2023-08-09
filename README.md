@@ -5,7 +5,7 @@ The main focus of its activities is the concentration of expertise from automoti
 The asc(s brings together key leaders from the industry with the best and most renowned scientists in the field of virtual vehicle development. Its members benefit from a worldwide unique research
 and development landscape with special focus on high-performance computing, driving simulation and digitalization.
 
-The [ENVITED Research Cluster](https://envited.market/) is an initiative to create the Environment for Virtual Test Drive in a collaborative way defining a methodology for a standard data based virtual proof of validation.
+The [ENVITED Research Cluster](https://envited.market/) is an initiative to create the Environment for Virtual Test Drive in a collaborative way, defining a methodology for a standard data based virtual proof of validation.
 Virtual validation is becoming an essential part of development processes for highly automated driving (HAD) functions. Standards for model and system interchange are vital for cross-company and cross-domain virtual
 integration and simulation of HAD functions.
 

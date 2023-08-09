@@ -1,13 +1,13 @@
 # ENVITED Open Source Model & Simulation Library
 
-> *"OpenMSL is a central hub demonstrating the interaction between models, standards and tools from the vast space of ADAS simulation condensing years of research in a single organization." - Clemens Linnhoff, CTO at Persival GmbH*
+> *"OpenMSL is a central hub demonstrating the interaction between models, standards and tools from the vast space of ADAS simulation condensing years of research in a single organization." - Dr. Clemens Linnhoff, CTO at Persival GmbH*
 
 ![tp header](/doc/img/envited.png)
 
 [![Header Image](https://img.shields.io/twitter/follow/ASCS_eV?label=Follow&style=social)](https://twitter.com/ASCS_eV)
 
 ENVITED stands for **Environment for Virtual Test Drive** encompassing all components for virtual test and validation of Advanced Driver Assistent Systems (ADAS)
-including but not limited to standardized data sets like e.g. digital maps, scenario data, simulation models and their respective test and validation methods.
+including but not limited to standardized data sets, e.g. digital maps, scenario data, simulation models and their respective test and validation methods.
 OpenMSL aims to connect and demonstrate the seemless interaction of projects in the domain using elaborate test pipelines, also to assure the compliance of all simulation entities with relevant standards.
 A list of utilized standards and tools can be found [here](/doc/related_work.md).
 
@@ -22,8 +22,8 @@ We are looking forward to welcome you as member of our community!
 
 ### SL1 - Perception Sensor Models
 
-A collection of [OSI](https://github.com/OpenSimulationInterface/open-simulation-interface) compliant sensor models according to the [OSMP](https://github.com/OpenSimulationInterface/osi-sensor-model-packaging) specification including a template repository
-demonstrating the [Credible Simulation Process](https://setlevel.de/assets/forschungsergebnisse/Credible-Simulation-Process-v1.0.pdf) by running full scale [SSP](https://ssp-standard.org/) based co-simulations in the build pipeline.
+This sub-library is a collection of [OSI](https://github.com/OpenSimulationInterface/open-simulation-interface) compliant sensor models according to the [OSMP](https://github.com/OpenSimulationInterface/osi-sensor-model-packaging) specification including a template repository
+demonstrating the [Credible Simulation Process](https://setlevel.de/assets/forschungsergebnisse/Credible-Simulation-Process-v1.0.pdf) by running full scale [SSP](https://ssp-standard.org/) based co-simulations in the CI pipeline.
 
 Initiated: 2022-07-25
   
@@ -44,7 +44,7 @@ Initiated: 2022-07-25
 
 ### SL2 - Traffic Participant Models
 
-A set of OSI compliant traffic participant models which include pedestrian models, SSP based ALKS systems, automated road users and others to demonstrate closed loop simulations in combination with other sub libraries utilizing open-source simulators like [esmini](https://github.com/esmini/esmini).
+This sub-library is a set of OSI compliant traffic participant models, which include pedestrian models, SSP based ALKS systems, automated road users and others to demonstrate closed loop simulations in combination with other sub-libraries utilizing open-source simulators such as [esmini](https://github.com/esmini/esmini).
 
 Initiated: Call for participation. Get engaged [hello@envited.market](mailto:hello@envited.market)
 
@@ -60,8 +60,8 @@ Initiated: Call for participation. Get engaged [hello@envited.market](mailto:hel
 
 ### SL3 - Scenario Data
 
-Example scenario data following the [ASAM OpenSCENARIO](https://www.asam.net/standards/detail/openscenario/) standard to provide interpretations for legislative documents like the UN Regulation No. 157 in order to discuss them in the community.
-In addition the best practices to establish quality gates for scenario databases to clearly show the quality of scenario data are to be shown.
+This sub-library contains example scenario data following the [ASAM OpenSCENARIO](https://www.asam.net/standards/detail/openscenario/) standard to provide interpretations for legislative documents such as the UN Regulation No. 157 in order to discuss them in the community.
+In addition, the best practices to establish quality gates for scenario databases to clearly show the quality of scenario data are shown.
 
 Initiated: Call for participation. Get engaged [hello@envited.market](mailto:hello@envited.market)
 

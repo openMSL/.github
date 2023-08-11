@@ -75,7 +75,7 @@ Initiated: Call for participation. Get engaged [hello@envited.market](mailto:hel
 
 - [sl-3-1-osc-alks-scenarios](https://github.com/asam-oss/OSC-ALKS-scenarios)
 
-### Static Environment Data
+### SL4 - Static Environment Data
 
 The German research project [GaiaX 4 PLC-AAD](https://www.gaia-x4plcaad.info/) develops quality metrics and tools to evaluate the successful integration of [ASAM OpenDRIVE](https://www.asam.net/standards/detail/opendrive) maps
 with e.g. [glTF](https://www.khronos.org/gltf/) 3D models and their respective material data extentions.
@@ -88,6 +88,6 @@ Initiated: Call for participation. Get engaged [hello@envited.market](mailto:hel
 - TBD
 - TBD
   
-#### SL4 - Repositories
+#### Repositories
 
 - In discussion

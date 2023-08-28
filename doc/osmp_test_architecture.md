@@ -127,6 +127,8 @@ Therefore, every test is located in an individual folder in _test/integration_.
 The individual test folder SHALL follow the naming scheme "xxx_short_description", where xxx is a three digit consecutive number.
 The folder SHALL contain a [system structure definition file (.ssd)](https://ssp-standard.org/publications/SSP10RC1/SystemStructureAndParameterization10RC1.pdf).
 In this file, the utilized model input (trace file player or esmini) as well as the processing FMU (evaluation or trace file writer) are specified.
+The test folder SHALL additionally contain a README.md file, which describes the test system, scenario and pass/fail criterion.
+A [template](integration_test_readme_template.md) is provided with the corresponding sections for this readme file.
 Other simulation artefacts such as the trace file or scenario to be played as well as auxiliary files for the evaluation FMU and a python analysis script are also to be placed in that test folder.
 Example implementations in the _test/integration_ folder can be found in the [sensor model template repository](https://github.com/openMSL/sl-1-0-sensor-model-repository-template/tree/main/test/integration/).
 

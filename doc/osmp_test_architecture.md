@@ -24,7 +24,7 @@ Every credibility assessment level is tested with a separate GitHub action and i
 For credibility assessment level 0 the software licenses are checked.
 A GitHub Action checks every file containing code for an SPDX license identifier.
 The identified licenses are verified against a list of approved open source licenses.
-Approved licenses are: Apache-2.0, BSD-3-Clause, BSD-2-Clause, GPL-2.0, GPL-3.0, LGPL-2.0, LGPL-2.1, LGPL-3.0, MIT, MPL-2.0, CDDL-1.0, EPL-2.0.
+Approved licenses are: Apache-2.0, BSD-2-Clause, BSD-3-Clause, MIT, MPL-2.0.
 
 An implementation of the GitHub action for this credibility assessment level can be found in the [sensor model template repository](https://github.com/openMSL/sl-1-0-sensor-model-repository-template/tree/main/.github/workflows/cl0.yml).
 

@@ -17,5 +17,8 @@
             "p",
             "em"
         ]
+    },
+    "MD024": {
+    	"siblings_only": true
     }
 }

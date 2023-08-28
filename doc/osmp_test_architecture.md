@@ -160,8 +160,9 @@ More detailed information about the OSI Field Checker can be found in the respec
 
 An example implementation of this test can be found in the [sensor model template repository](https://github.com/openMSL/sl-1-0-sensor-model-repository-template/tree/main/test/integration/002_output_osi_fields).
 
-#### Value Range Check (Not implemented yet)
+#### Value Range Check
 
+(not yet implemented) <br>
 Furthermore, the value ranges of the output parameters are tested.
 E.g. if a lidar sensor has intensity outputs in the interval [0, 100], the sensor model shall not output any values outside of this range.
 These tests on value ranges might also include the timing of the model.

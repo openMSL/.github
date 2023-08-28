@@ -62,7 +62,7 @@ It also contains an example [markdownlint.json](https://github.com/openMSL/sl-1-
 
 #### SRMD Validator
 
-Every model repository shall include an [SRMD file](https://pmsfit.github.io/SSPTraceability/master/#_srmd) conforming to the [SSP tracability](https://pmsfit.github.io/SSPTraceability/master/) process.
+Every model repository SHALL include an [SRMD file](https://pmsfit.github.io/SSPTraceability/master/#_srmd) conforming to the [SSP tracability](https://pmsfit.github.io/SSPTraceability/master/) process.
 This file is checked against the [SRMD XML schema](https://github.com/PMSFIT/SSPTraceability).
 
 ### CL 1.2: Build
@@ -84,8 +84,8 @@ Since the FMU Compliance Checker does not seem to be further maintained, [FMPy](
 
 ### CL 1.3 Unit Tests
 
-Models shall include individual unit tests.
-The tests shall be located in a folder _test/unit_ which shall also include the applied unit test library (e.g. [GoogleTest](https://github.com/google/googletest)).
+Models SHALL include individual unit tests.
+The tests SHALL be located in a folder _test/unit_ which SHALL also include the applied unit test library (e.g. [GoogleTest](https://github.com/google/googletest)).
 Unit tests have to be custom to the implementation of the individual model.
 Therefore, no standard unit tests are part of this test pipeline.
 
@@ -124,8 +124,8 @@ This functionality is part of CL3.
 
 All tests in CL 2 are considered integration tests, since they all require a co-simulation with at least one other FMU.
 Therefore, every test is located in an individual folder in _test/integration_.
-The individual test folder shall follow the naming scheme "xxx_short_description", where xxx is a three digit consecutive number.
-The folder shall contain a [system structure definition file (.ssd)](https://ssp-standard.org/publications/SSP10RC1/SystemStructureAndParameterization10RC1.pdf).
+The individual test folder SHALL follow the naming scheme "xxx_short_description", where xxx is a three digit consecutive number.
+The folder SHALL contain a [system structure definition file (.ssd)](https://ssp-standard.org/publications/SSP10RC1/SystemStructureAndParameterization10RC1.pdf).
 In this file, the utilized model input (trace file player or esmini) as well as the processing FMU (evaluation or trace file writer) are specified.
 Other simulation artefacts such as the trace file or scenario to be played as well as auxiliary files for the evaluation FMU and a python analysis script are also to be placed in that test folder.
 Example implementations in the _test/integration_ folder can be found in the [sensor model template repository](https://github.com/openMSL/sl-1-0-sensor-model-repository-template/tree/main/test/integration/).
@@ -141,7 +141,7 @@ But since OSMP models always require a model input, smoke test are also located 
 For the smoke tests, the model is employed in a co-simulation and fed with inputs.
 The model is just connected either to a trace file player or a scenario engine to generate the model input.
 The output of the model is not used.
-The model shall go through the tests without any run time errors.
+The model SHALL go through the tests without any run time errors.
 
 An example implementation of this test can be found in the [sensor model template repository](https://github.com/openMSL/sl-1-0-sensor-model-repository-template/tree/main/test/integration/001_smoke_test).
 
@@ -164,7 +164,7 @@ An example implementation of this test can be found in the [sensor model templat
 
 (not yet implemented) <br>
 Furthermore, the value ranges of the output parameters are tested.
-E.g. if a lidar sensor has intensity outputs in the interval [0, 100], the sensor model shall not output any values outside of this range.
+E.g. if a lidar sensor has intensity outputs in the interval [0, 100], the sensor model SHALL not output any values outside of this range.
 These tests on value ranges might also include the timing of the model.
 Additional test can be performed on the SensorViewConfigRequest during the initialization of the model FMU, if implemented.
 

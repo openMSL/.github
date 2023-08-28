@@ -1,29 +1,29 @@
 # ENVITED Open Source Model & Simulation Library
 
+> *"OpenMSL is a central hub demonstrating the interaction between models, standards and tools from the vast space of ADAS simulation condensing years of research in a single organization." - Dr. Clemens Linnhoff, CTO at Persival GmbH*
+
 ![tp header](/doc/img/envited.png)
 
 [![Header Image](https://img.shields.io/twitter/follow/ASCS_eV?label=Follow&style=social)](https://twitter.com/ASCS_eV)
 
-This GitHub organization is maintained by the [Automotive Solution Center for Simulation e.V.](https://www.asc-s.de/) - a non-profit industry club registered in Germany.
-The main focus of its activities is the concentration of expertise from automotive and supply industry, software and hardware manufacturers, engineering service providers and research institutes.
-The asc(s brings together key leaders from the industry with the best and most renowned scientists in the field of virtual vehicle development. Its members benefit from a worldwide unique research
-and development landscape with special focus on high-performance computing, driving simulation and digitalization.
+ENVITED stands for **Environment for Virtual Test Drive** encompassing all components for virtual test and validation of Advanced Driver Assistent Systems (ADAS)
+including but not limited to standardized data sets, e.g. digital maps, scenario data, simulation models and their respective test and validation methods.
+OpenMSL aims to connect and demonstrate the seemless interaction of projects in the domain using elaborate test pipelines, also to assure the compliance of all simulation entities with relevant standards.
+A list of utilized standards and tools can be found [here](/doc/related_work.md).
 
-The [ENVITED Research Cluster](https://envited.market/) is an initiative to create the Environment for Virtual Test Drive in a collaborative way defining a methodology for a standard data based virtual proof of validation.
-Virtual validation is becoming an essential part of development processes for highly automated driving (HAD) functions. Standards for model and system interchange are vital for cross-company and cross-domain virtual
-integration and simulation of HAD functions.
+All repositories are organized in sub libraries and each sub library (SL) represents the best practices in the automotive industry on
+how to use, create and apply standard compliant simulation data and models regarding a specific topic or application area guided by expert maintainers of the ENVITED community.
 
-OpenMSL is not only a library for individual simulation entities.
-It is a central hub demonstrating the interaction between models, standards and tools from the vast space of ADAS simulation.
-Elaborate test pipelines assure the compliance of all simulation entities to the standards.
-A list of the utilized standards and tools can be found [here](/doc/related_work.md).
+Learn more about the ENVITED research cluster of the Automotive Solution Center for Simulation e.V, our governance rules, contribution guidelines and our code of conduct [here](/README.md).
 
-All repositories are grouped into sub libraries and each sub library (SL) represents the best practices in the automotive industry on how to use, create and apply standard compliant simulation data and models regarding a specific topic or application area.
-Read more detailed information about governance rules, contribution guidelines and our code of conduct [here](/README.md).
+We are looking forward to welcome you as member of our community!
 
 ## Sub Libraries
 
 ### SL1 - Perception Sensor Models
+
+This sub-library is a collection of [OSI](https://github.com/OpenSimulationInterface/open-simulation-interface) compliant sensor models according to the [OSMP](https://github.com/OpenSimulationInterface/osi-sensor-model-packaging) specification including a template repository
+demonstrating the [Credible Simulation Process](https://setlevel.de/assets/forschungsergebnisse/Credible-Simulation-Process-v1.0.pdf) by running full scale [SSP](https://ssp-standard.org/) based co-simulations in the CI pipeline.
 
 Initiated: 2022-07-25
   
@@ -42,10 +42,68 @@ Initiated: 2022-07-25
 - [sl-1-4-object-based-camera-object-model](https://github.com/openMSL/sl-1-4-object-based-camera-object-model)
 - [sl-1-5-sensor-model-testing](https://github.com/openMSL/sl-1-5-sensor-model-testing)
 
-### SL2 - Agent Models
+### SL2 - Traffic Participant Models
 
-Start of the initialization phase.
+This sub-library is a set of OSI compliant traffic participant models, which include pedestrian models, SSP based ALKS systems, automated road users and others to demonstrate closed loop simulations in combination with other sub-libraries utilizing open-source simulators such as [esmini](https://github.com/esmini/esmini).
+
+Initiated: Call for participation. Get engaged [hello@envited.market](mailto:hello@envited.market)
+
+#### Maintainer
+
+- TBD
+- TBD
+- TBD
+  
+#### Repositories
+
+- [sl-2-0-traffic-participant-model-repository-template](https://github.com/openMSL/sl-2-0-traffic-participant-model-repository-template)
 
 ### SL3 - Scenario Data
 
-Start of the initialization phase.
+This sub-library contains example scenario data following the [ASAM OpenSCENARIO](https://www.asam.net/standards/detail/openscenario/) standard to provide interpretations for legislative documents such as the UN Regulation No. 157 in order to discuss them in the community.
+In addition, the best practices to establish quality gates for scenario databases to clearly show the quality of scenario data are shown.
+
+Initiated: Call for participation. Get engaged [hello@envited.market](mailto:hello@envited.market)
+
+#### Maintainer
+
+- TBD (BMW AG)
+- TBD
+- TBD
+  
+#### Repositories
+
+- [sl-3-1-osc-alks-scenarios](https://github.com/asam-oss/OSC-ALKS-scenarios)
+
+### SL4 - Static Environment Data
+
+The German research project [GaiaX 4 PLC-AAD](https://www.gaia-x4plcaad.info/) develops quality metrics and tools to evaluate the successful integration of [ASAM OpenDRIVE](https://www.asam.net/standards/detail/opendrive) maps
+with e.g. [glTF](https://www.khronos.org/gltf/) 3D models and their respective material data extentions.
+
+Initiated: Call for participation. Get engaged [hello@envited.market](mailto:hello@envited.market)
+
+#### Maintainer
+
+- TBD (BMW AG)
+- TBD
+- TBD
+  
+#### Repositories
+
+- In discussion
+
+### SL5 - Tooling
+
+This sub-library contains various tools to import, export, analyze and visualize co-simulation data.
+
+Initiated: Call for participation. Get engaged [hello@envited.market](mailto:hello@envited.market)
+
+#### Maintainer
+
+- TBD (Persival GmbH)
+- TBD
+- TBD
+  
+#### Repositories
+
+- In discussion

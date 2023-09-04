@@ -1,7 +1,7 @@
 # OSMP Test Architecture
 
 The OSMP Test Architecture is designed to test any simulation model complying to the [OSMP](https://github.com/OpenSimulationInterface/osi-sensor-model-packaging) specification.
-Contrary to the S in OSMP, a variety of model typed from environmental effect models over sensor models to traffic participant models can be tested with this architecture.
+A variety of model types from environmental effect models over sensor models to traffic participant models can be tested with this architecture.
 The architecture is divided into 3 main test levels based on the credibility assessment level definition by Ahmann et al. [[1](#Ahmann2022)].
 Because the test architecture is specifically designed for OpenMSL open source models, a license check is needed.
 The license check is preceding the 3 main credibility assessment levels as level 0.
@@ -25,6 +25,7 @@ For credibility assessment level 0 the software licenses are checked.
 A GitHub Action checks every file containing code for an SPDX license identifier.
 The identified licenses are verified against a list of approved open source licenses.
 Approved licenses are: Apache-2.0, BSD-2-Clause, BSD-3-Clause, MIT, MPL-2.0.
+Please contact the maintainers if you have other requirements regarding open source licenses.
 
 An implementation of the GitHub action for this credibility assessment level can be found in the [sensor model template repository](https://github.com/openMSL/sl-1-0-sensor-model-repository-template/tree/main/.github/workflows/cl0.yml).
 
@@ -85,7 +86,7 @@ Since the FMU Compliance Checker does not seem to be further maintained, [FMPy](
 ### CL 1.3 Unit Tests
 
 Models SHALL include individual unit tests.
-The tests SHALL be located in a folder _test/unit_ which SHALL also include the applied unit test library (e.g. [GoogleTest](https://github.com/google/googletest)).
+The tests SHALL be located in a folder _test/unit_ which MUST include the applied unit test library (e.g. [GoogleTest](https://github.com/google/googletest)).
 Unit tests have to be custom to the implementation of the individual model.
 Therefore, no standard unit tests are part of this test pipeline.
 
@@ -166,7 +167,7 @@ An example implementation of this test can be found in the [sensor model templat
 
 (not yet implemented) <br>
 Furthermore, the value ranges of the output parameters are tested.
-E.g. if a lidar sensor has intensity outputs in the interval [0, 100], the sensor model SHALL not output any values outside of this range.
+E.g. if a lidar sensor has intensity outputs in the interval [0, 100], the sensor model SHALL NOT output any values outside of this range.
 These tests on value ranges might also include the timing of the model.
 Additional test can be performed on the SensorViewConfigRequest during the initialization of the model FMU, if implemented.
 

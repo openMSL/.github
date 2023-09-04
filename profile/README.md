@@ -11,14 +11,18 @@ including but not limited to standardized data sets, e.g. digital maps, scenario
 OpenMSL aims to connect and demonstrate the seemless interaction of projects in the domain using elaborate test pipelines, also to assure the compliance of all simulation entities with relevant standards.
 A list of utilized standards and tools can be found [here](/doc/related_work.md).
 
-All repositories are organized in sub libraries and each sub library (SL) represents the best practices in the automotive industry on
+All repositories are organized in sub-libraries and each sub-library (SL) represents the best practices in the automotive industry on
 how to use, create and apply standard compliant simulation data and models regarding a specific topic or application area guided by expert maintainers of the ENVITED community.
+
+As part of these best practices, OpenMSL provides unified test architectures for simulation components.
+For OSMP compliant simulation models, an [OSMP Test Architecture](/doc/osmp_test_architecture.md) is definied.
+The architecture is applied in the template repositories of the corresponding sub-libraries.
 
 Learn more about the ENVITED research cluster of the Automotive Solution Center for Simulation e.V, our governance rules, contribution guidelines and our code of conduct [here](/README.md).
 
 We are looking forward to welcome you as member of our community!
 
-## Sub Libraries
+## Sub-Libraries
 
 ### SL1 - Perception Sensor Models
 

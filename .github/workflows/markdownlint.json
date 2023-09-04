@@ -12,7 +12,10 @@
         "allowed_elements": [
             "a",
             "br",
-            "img"
+            "img",
+            "sup",
+            "p",
+            "em"
         ]
     },
     "MD024": {

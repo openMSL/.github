@@ -110,4 +110,9 @@ Initiated: Call for participation. Get engaged [hello@envited.market](mailto:hel
   
 #### Repositories
 
-- In discussion
+- [sl-5-1-srmd-validator](https://github.com/openMSL/sl-5-1-srmd-validator)
+- [sl-5-2-osi-field-checker](https://github.com/openMSL/sl-5-2-osi-field-checker)
+- [sl-5-3-osmp-network-proxy](sl-5-3-osmp-network-proxy)
+- [sl-5-4-standalone-osi-trace-file-player](https://github.com/openMSL/sl-5-4-standalone-osi-trace-file-player)
+- [sl-5-5-osi-trace-file-player](https://github.com/openMSL/sl-5-5-osi-trace-file-player)
+- [sl-5-6-osi-trace-file-writer](https://github.com/openMSL/sl-5-6-osi-trace-file-writer)

@@ -13,4 +13,3 @@
 | SRMD         | [Simulation Resource Meta Data](https://pmsfit.github.io/SSPTraceability/master/#sec-srmdintroduction)                        | Meta data format to be attached to every simulation entity                                      |
 | SSD          | [System Structure Description](https://ssp-standard.org/publications/SSP10RC1/SystemStructureAndParameterization10RC1.pdf)    | File format to define a system consisting of one or more FMUs as part of the SSP standard       |
 | SSP          | [System Structure & Parameterization](https://ssp-standard.org/)                                                              | Standard to define complete systems consisting of one or more FMUs                              |
-

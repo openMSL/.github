@@ -30,7 +30,6 @@ We are looking forward to welcome you as member of our community!
   - [sl-1-2-reflection-based-lidar-object-model](#sl-1-2-reflection-based-lidar-object-model)
   - [sl-1-3-object-based-generic-perception-object-model](#sl-1-3-object-based-generic-perception-object-model)
   - [sl-1-4-object-based-camera-object-model](#sl-1-4-object-based-camera-object-model)
-  - [sl-1-5-sensor-model-testing](#sl-1-5-sensor-model-testing)
 
 - [SL2 - Traffic Participant Models](#sl2---traffic-participant-models)
   - [sl-2-0-traffic-participant-model-repository-template](#sl-2-0-traffic-participant-model-repository-template)
@@ -143,19 +142,6 @@ Initiated: 2022-07-25
   > <img src="https://github.com/openMSL/sl-1-4-object-based-camera-object-model/raw/main/doc/img/OSMPCameraSensor_Demo.gif" width="800" />
   >
   > more info: [click here](https://github.com/openMSL/sl-1-4-object-based-camera-object-model)
-  <br>
-
-- #### [sl-1-5-sensor-model-testing](https://github.com/openMSL/sl-1-5-sensor-model-testing)
-
-  > This repository contains FMUs for automated testing, verification and validation for open-source perception sensor models.
-  >
-  >Further information can be found in [the repository](https://github.com/openMSL/sl-1-5-sensor-model-testing), the READMEs of the respective folders, and the documentation below:
-  >
-  > - FMU collection for sensor model testing:
-  >   - [OSI Check FMU](src/osi-field-checker/)<br>
-  >     This FMU checks if fields are missing in a received SensorData.
-  >   - [SRMD Validator](src/srmd-validator/)<br>
-  >     This python script looks for SRMD files and validates them.<br>
   <br>
 
 ---

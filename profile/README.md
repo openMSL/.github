@@ -69,7 +69,7 @@ Initiated: 2022-07-25
 
 ### Repositories
 
-#### [sl-1-0-sensor-model-repository-template](https://github.com/openMSL/sl-1-0-sensor-model-repository-template)
+#### [sl-1-0-sensor-model-repository-template](https://github.com/openMSL/sl-1-0-sensor-model-repository-template) {#sl-1-0-sensor-model-repository-template}
 
   > Enter a short description of the model.
   > What is the purpose of the model?

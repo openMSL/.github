@@ -40,3 +40,7 @@ It is important that the contributor fully understands the licensing rights and 
 
 The profile information is described in [profile/README.md](profile/README.md) and displayed on the organization main page.
 Read the corresponding GitHub [documentation](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile) for more information on organization profiles.
+
+## Glossary
+
+In the doc folder a [list of abbreviations](doc/list_of_abbreviations.md) was compiled with all abbreviations and acronyms from the co-simulation universe used in OpenMSL.

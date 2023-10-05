@@ -51,7 +51,7 @@ We are looking forward to welcome you as member of our community!
 
 ## SL1 - Perception Sensor Models
 
-> This sub-library is a collection of [OSI](https://github.com/OpenSimulationInterface/open-simulation-interface) compliant sensor models according to the [OSMP](https://github.com/OpenSimulationInterface/osi-sensor-model-packaging) specification including a template repository
+This sub-library is a collection of [OSI](https://github.com/OpenSimulationInterface/open-simulation-interface) compliant sensor models according to the [OSMP](https://github.com/OpenSimulationInterface/osi-sensor-model-packaging) specification including a template repository
 demonstrating the [Credible Simulation Process](https://setlevel.de/assets/forschungsergebnisse/Credible-Simulation-Process-v1.0.pdf) by running full scale [SSP](https://ssp-standard.org/) based co-simulations in the CI pipeline.
 
 Initiated: 2022-07-25

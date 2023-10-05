@@ -47,10 +47,7 @@ We are looking forward to welcome you as member of our community!
   - [sl-5-5-osi-trace-file-player](#sl-5-5-osi-trace-file-player)
   - [sl-5-6-osi-trace-file-writer](#sl-5-6-osi-trace-file-writer)
 
-<br>
-
 ---
-<br>
 
 ## SL1 - Perception Sensor Models
 
@@ -69,83 +66,59 @@ Initiated: 2022-07-25
 
 ### Repositories
 
-#### [sl-1-0-sensor-model-repository-template](https://github.com/openMSL/sl-1-0-sensor-model-repository-template)
+#### sl-1-0-sensor-model-repository-template
 
   > Enter a short description of the model.
   > What is the purpose of the model?
   > What is the general modeling approach?
   > What inputs does the model need and what outputs does it generate?
   >
-  > < Eye-catcher Image >
-  >
-  > <img src="https://github.com/openMSL/sl-1-0-sensor-model-repository-template/raw/main/doc/img/model_video.gif" width="800" />
-  >
   > more info: [click here](https://github.com/openMSL/sl-1-0-sensor-model-repository-template)
-  <br>
 
-- #### [sl-1-1-reflection-based-radar-object-model](https://github.com/openMSL/sl-1-1-reflection-based-radar-object-model)
+#### sl-1-1-reflection-based-radar-object-model
 
-  > <img align="right" src="https://gitlab.com/tuda-fzd/perception-sensor-modeling/object-based-generic-perception-object-model/uploads/17c84e9ec0acf0fac2e35855f038ad0b/fzdlogo.jpg" width="100" />
-  >
   > This model is a Reflection Based Radar Model based on the [Modular OSMP Framework](https://gitlab.com/tuda-fzd/perception-sensor-modeling/modular-osmp-framework) by FZD.
   > It is a highly parameterizable sensor system model including detection calculation and object tracking simulation.
   > The model received radar reflection data calculated in a simulation tool beforehand e.g. with ray tracing.
   > The model outputs are radar detections and detected moving objects.
   >
-  > <img src="https://github.com/openMSL/sl-1-1-reflection-based-radar-object-model/raw/main/doc/img/model_video.gif" width="800" />
-  >
   > more info: [click here](https://github.com/openMSL/sl-1-1-reflection-based-radar-object-model)
-  <br>
 
-- #### [sl-1-2-reflection-based-lidar-object-model](https://github.com/openMSL/sl-1-2-reflection-based-lidar-object-model)
+#### sl-1-2-reflection-based-lidar-object-model
 
   > The current version of the model is build on the enhancements to the Open Simulation Interface from the publicly funded SETLevel project.
   > It is therefore dependent on the non-standard [SL OSI](https://gitlab.setlevel.de/open/osi) and not [ASAM OSI](https://github.com/OpenSimulationInterface/open-simulation-interface).
-  >
-  > <img align="right" src="https://github.com/openMSL/sl-1-2-reflection-based-lidar-object-model/raw/main/doc/img/fzd_logo.jpg" width="100" />
   >
   > This is the FZD Reflection Based Lidar Model based on the FZD OSI Sensor Model Packaging Framework.
   > It is a highly parameterizable sensor system model including detection calculation and object tracking simulation.
   > The model gets lidar reflection calculated in a simulation tool beforehand e.g. with ray tracing.
   > The model outputs are lidar detections and detected moving objects.<br>
   >
-  > <img src="https://github.com/openMSL/sl-1-2-reflection-based-lidar-object-model/raw/main/doc/img/model_video.gif" width="800" />
-  >
   > more info: [click here](https://github.com/openMSL/sl-1-2-reflection-based-lidar-object-model)
-  <br>
 
-- #### [sl-1-3-object-based-generic-perception-object-model](https://github.com/openMSL/sl-1-3-object-based-generic-perception-object-model)
+#### sl-1-3-object-based-generic-perception-object-model
 
-  > <img align="right" src="https://gitlab.com/tuda-fzd/perception-sensor-modeling/object-based-generic-perception-object-model/uploads/17c84e9ec0acf0fac2e35855f038ad0b/fzdlogo.jpg" width="100" />
-  >
   > This model is a highly parameterizable generic perception sensor and tracking model. It can be parameterized as a Lidar or a Radar. The model is based on object lists and all modeling is performed on object level.
   > It includes typical sensor artifacts like soft FoV transitions, different detection ranges for different targets occlusion effects depending on the sensor technology as well as simulation of tracking behavior.
   > The model output are object lists for OSI SenorData moving objects.
   >
   > The architecture of the model as well as the parameterization structure are designed to be as generic as possible
-  to fit both radar and lidar sensors to utilize similarities in signal propagation and signal processing in both technologies.
+  > to fit both radar and lidar sensors to utilize similarities in signal propagation and signal processing in both technologies.
   > This way, the model can be parameterized to model different kinds of lidar and radar sensors. To give an example: You can set an irradiation pattern for the modeled sensor. Depending on the sensor technology this can either be an antenna gain pattern for radar or a beam pattern for lidar.
   >
-  > <img src="https://github.com/openMSL/sl-1-3-object-based-generic-perception-object-model/raw/main/doc/img/model_video.gif" width="800" />
-  >
   > more info: [click here](https://github.com/openMSL/sl-1-3-object-based-generic-perception-object-model)
-  <br>
 
-- #### [sl-1-4-object-based-camera-object-model](https://github.com/openMSL/sl-1-4-object-based-camera-object-model)
+#### sl-1-4-object-based-camera-object-model
 
   > This model is a parameterizable object based video perception sensor and tracking model using the interface OSI.   The model was developed in the project SetLevel by Bosch. The model should simulate some basic video typical effects in a phenomenological way.
-  The "object based camera object model" is based on object lists and all modeling is performed on object level. The model output are object lists for OSI SenorData moving and stationary objects.
+  > The "object based camera object model" is based on object lists and all modeling is performed on object level. The model output are object lists for OSI SenorData moving and stationary objects.
   >
   > The outer layer of the model is the OSI Sensor Model Packaging (OSMP). It specifies ways in which models  using the Open Simulation Interface (OSI) are to be packaged for their use in simulation environments using FMI 2.0.
   > For more detailed information see the official documentation.
   >
-  > <img src="https://github.com/openMSL/sl-1-4-object-based-camera-object-model/raw/main/doc/img/OSMPCameraSensor_Demo.gif" width="800" />
-  >
   > more info: [click here](https://github.com/openMSL/sl-1-4-object-based-camera-object-model)
-  <br>
 
 ---
-<br>
 
 ## SL2 - Traffic Participant Models
 
@@ -161,12 +134,13 @@ Initiated: Call for participation. Get engaged [hello@envited.market](mailto:hel
 
 ### Repositories
 
-- #### [sl-2-0-traffic-participant-model-repository-template](https://github.com/openMSL/sl-2-0-traffic-participant-model-repository-template)
+#### sl-2-0-traffic-participant-model-repository-template
 
-<br>
+  > Under development
+  >
+  > more info: [click here](https://github.com/openMSL/sl-2-0-traffic-participant-model-repository-template)
 
 ---
-<br>
 
 ## SL3 - Scenario Data
 
@@ -183,7 +157,7 @@ Initiated: Call for participation. Get engaged [hello@envited.market](mailto:hel
 
 ### Repositories
 
-- #### [sl-3-1-osc-alks-scenarios](https://github.com/asam-oss/OSC-ALKS-scenarios)
+#### sl-3-1-osc-alks-scenarios
 
   > The here provided 15 concrete parametrized test scenarios are derived from the 6 subject areas analogous to Annex 5, Chapter 4.1-4.6 as an initial attempt to clarify the described set of functional scenarios.
   >
@@ -194,12 +168,8 @@ Initiated: Call for participation. Get engaged [hello@envited.market](mailto:hel
   > By extending the scenarios with environmental conditions (e.g. light, rain or wind) or references to e.g. 3D models, aspects of sensor and actuator technology could also be simulated and validated.
   >
   > more info: [click here](https://github.com/asam-oss/OSC-ALKS-scenarios)
-  <br>
-
-<br>
 
 ---
-<br>
 
 ## SL4 - Static Environment Data
 
@@ -218,10 +188,7 @@ Initiated: Call for participation. Get engaged [hello@envited.market](mailto:hel
 
 - In discussion
 
-<br>
-
 ---
-<br>
 
 ## SL5 - Tooling
 
@@ -237,49 +204,41 @@ Initiated: Call for participation. Get engaged [hello@envited.market](mailto:hel
 
 ### Repositories
 
-- #### [sl-5-1-srmd-validator](https://github.com/openMSL/sl-5-1-srmd-validator)
+#### sl-5-1-srmd-validator
 
   > This python code is meant to be used in a CI pipeline, e.g. a GitHub Action. It looks for SRMD files in the root directory of a repository, this repo is cloned into. The found SRMD files are validated against the SRMD schema from [SSPTraceability](https://github.com/PMSFIT/SSPTraceability/).
   >
   >more info: [click here](https://github.com/openMSL/sl-5-1-srmd-validator)
-  <br>
 
-- #### [sl-5-2-osi-field-checker](https://github.com/openMSL/sl-5-2-osi-field-checker)
+#### sl-5-2-osi-field-checker
 
   > This FMU checks if fields are missing in a received SensorData. It is meant to be used in a co-simulation connected to the output of the model under test. It will output missing osi fields in the format of GitHub annotations, so that it can be used directly in a GitHub CI pipeline.
   > The image below shows an example of a failed pipeline due to missing OSI fields in the SensorData.
   >
-  > <img src="https://github.com/openMSL/sl-5-2-osi-field-checker/raw/main/doc/osi-field-checker-output.png" width="800"  alt="OSI Field Checker in CI Pipeline"/>
-  >
   >more info: [click here](https://github.com/openMSL/sl-5-2-osi-field-checker)
-  <br>
 
-- #### [sl-5-3-osmp-network-proxy](https://github.com/openMSL/sl-5-3-osmp-network-proxy)
+#### sl-5-3-osmp-network-proxy
 
   > This Network Proxy FMU can receive SensorView and SensorData via TCP/IP using ZeroMQ. The received data is directly given to the FMU output. The proxy can also send SensorView oder SensorData received as FMU input via TCP/IP to a given IP address and port.
   >
   > more info: [click here](https://github.com/openMSL/sl-5-3-osmp-network-proxy)
-  <br>
 
-- #### [sl-5-4-standalone-osi-trace-file-player](https://github.com/openMSL/sl-5-4-standalone-osi-trace-file-player)
+#### sl-5-4-standalone-osi-trace-file-player
 
   > This mini application can read a binary ASAM OSI trace file (SensorData or SensorView) and send it step by step via TCP using ZeroMQ.
   >
   > more info: [click here](https://github.com/openMSL/sl-5-4-standalone-osi-trace-file-player)
-  <br>
 
-- #### [sl-5-5-osi-trace-file-player](https://github.com/openMSL/sl-5-5-osi-trace-file-player)
+#### sl-5-5-osi-trace-file-player
 
   > This [FMU](https://fmi-standard.org/) is able to play binary OSI trace files. The folder containing the trace files has to be passed as FMI parameter *trace_path*.
   > The trace file player is build according to the [ASAM Open simulation Interface (OSI)](https://github.com/OpenSimulationInterface/open-simulation-interface) and the [OSI Sensor Model Packaging (OSMP)](https://github.com/OpenSimulationInterface/osi-sensor-model-packaging) examples.
   >
   > more info: [click here](https://github.com/openMSL/sl-5-5-osi-trace-file-player)
-  <br>
 
-- #### [sl-5-6-osi-trace-file-writer](https://github.com/openMSL/sl-5-6-osi-trace-file-writer)
+#### sl-5-6-osi-trace-file-writer
 
   > This [FMU](https://fmi-standard.org/) is able to write binary OSI SensorData trace files. The folder the trace files shall be written to has to be passed as FMI parameter *trace_path*.
   > The trace file writer is build according to the [ASAM Open simulation Interface (OSI)](https://github.com/OpenSimulationInterface/open-simulation-interface) and the [OSI Sensor Model Packaging (OSMP)](https://github.com/OpenSimulationInterface/osi-sensor-model-packaging) examples.
   >
   > more info: [click here](https://github.com/openMSL/sl-5-6-osi-trace-file-writer)
-  <br>

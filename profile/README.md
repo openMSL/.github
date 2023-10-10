@@ -29,7 +29,7 @@ More information can be found in the [documentation](https://openmsl.github.io/d
 
 ### SL2 - Traffic Participant Models
 
-- TBD
+- [sl-2-0-traffic-participant-model-repository-template](https://github.com/openMSL/sl-2-0-traffic-participant-model-repository-template)
 
 ### SL3 - Scenario Data
 

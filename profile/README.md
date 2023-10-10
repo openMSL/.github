@@ -44,7 +44,6 @@ Initiated: 2022-07-25
 - [sl-1-2-reflection-based-lidar-object-model](https://github.com/openMSL/sl-1-2-reflection-based-lidar-object-model)
 - [sl-1-3-object-based-generic-perception-object-model](https://github.com/openMSL/sl-1-3-object-based-generic-perception-object-model)
 - [sl-1-4-object-based-camera-object-model](https://github.com/openMSL/sl-1-4-object-based-camera-object-model)
-- [sl-1-5-sensor-model-testing](https://github.com/openMSL/sl-1-5-sensor-model-testing)
 
 ### SL2 - Traffic Participant Models
 

@@ -11,7 +11,7 @@ Is this a bugfix or a feature? Does it break any existing functionality or force
 How has it been tested?
 
 **Take this checklist as orientation for yourself, if this PR is ready for Maintainer Review**
-- [ ] My suggestion follows the [governance rules](https://github.com/openMSL/governance-and-documentation).
+- [ ] My suggestion follows the [governance rules](https://openmsl.github.io/doc/OpenMSL/organization/governance_rules.html).
 - [ ] All commits of this PR are [signed](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits).
 - [ ] My changes generate no errors when passing CI tests. 
 - [ ] I updated all documentation (readmes incl. figures) according to my changes.

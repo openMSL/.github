@@ -33,7 +33,8 @@ More information can be found in the [documentation](https://openmsl.github.io/d
 
 ### SL3 - Scenario Data
 
-- [sl-3-1-osc-alks-scenarios](https://github.com/asam-oss/OSC-ALKS-scenarios)
+- [EXTERN sl-3-1-osc-alks-scenarios](https://github.com/asam-oss/OSC-ALKS-scenarios)
+- [EXTERN sl-3-2-osc-ncap-scenarios](https://github.com/vectorgrp/OSC-NCAP-scenarios)
 
 ### SL4 - Static Environment Data
 

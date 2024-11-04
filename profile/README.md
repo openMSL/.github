@@ -26,6 +26,7 @@ More information can be found in the [documentation](https://openmsl.github.io/d
 - [sl-1-2-reflection-based-lidar-object-model](https://github.com/openMSL/sl-1-2-reflection-based-lidar-object-model)
 - [sl-1-3-object-based-generic-perception-object-model](https://github.com/openMSL/sl-1-3-object-based-generic-perception-object-model)
 - [sl-1-4-object-based-camera-object-model](https://github.com/openMSL/sl-1-4-object-based-camera-object-model)
+- [sl-1-5-reflection-based-fmcw-lidar-detection-model](https://github.com/openMSL/sl-1-5-reflection-based-fmcw-lidar-detection-model)
 
 ### SL2 - Traffic Participant Models
 

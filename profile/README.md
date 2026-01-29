@@ -49,3 +49,5 @@ More information can be found in the [documentation](https://openmsl.github.io/d
 - [sl-5-4-standalone-osi-trace-file-player](https://github.com/openMSL/sl-5-4-standalone-osi-trace-file-player)
 - [sl-5-5-osi-trace-file-player](https://github.com/openMSL/sl-5-5-osi-trace-file-player)
 - [sl-5-6-osi-trace-file-writer](https://github.com/openMSL/sl-5-6-osi-trace-file-writer)
+- [sl-5-7-simulation-asset-services](https://github.com/openMSL/sl-5-7-asset-services)
+- [sl-5-8-simulation-asset-tools](https://github.com/openMSL/sl-5-8-asset-tools)
